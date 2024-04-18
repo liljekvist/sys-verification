@@ -1,5 +1,3 @@
-import json
-
 import pytest
 
 from src.util.dao import DAO
