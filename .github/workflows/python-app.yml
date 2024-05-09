@@ -34,4 +34,4 @@ jobs:
         pip install -r requirements.pip
     - name: Test with pytest
       run: |
-        pytest test/user/test_userController.py
+        pytest test/user/test_userController.py test/demo/
